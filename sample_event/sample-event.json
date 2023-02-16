@@ -1,0 +1,38 @@
+{
+    "Records": [
+        {
+            "eventVersion": "2.1",
+            "eventSource": "aws:s3",
+            "awsRegion": "ap-south-1",
+            "eventTime": "2023-02-16T05:57:35.672Z",
+            "eventName": "ObjectCreated:Put",
+            "userIdentity": {
+                "principalId": "AWS:AIDA6RH6CSREXCMTUPDQC"
+            },
+            "requestParameters": {
+                "sourceIPAddress": "103.211.20.52"
+            },
+            "responseElements": {
+                "x-amz-request-id": "D8ARYR7Q3M8P7KM3",
+                "x-amz-id-2": "PRAtW2MVVg4j5ixXMnXvKfeusn2XNoRTYprBXTLGOtx934ON+nDLUXAqoRKbZdbpl1YKe9RKpoYH+PJhDAYYTL1NiFKwsJIoW9DqLY+Ox1U="
+            },
+            "s3": {
+                "s3SchemaVersion": "1.0",
+                "configurationId": "lambda-trigger",
+                "bucket": {
+                    "name": "twitter-dump-sample-test",
+                    "ownerIdentity": {
+                        "principalId": "A1B3BC2X1J2SJL"
+                    },
+                    "arn": "arn:aws:s3:::twitter-dump-sample-test"
+                },
+                "object": {
+                    "key": "web-images/wizarding-world-legacy-link-reward-wallpaper-0eaee25c51d148b5ada70c8944b7e199.jpg",
+                    "size": 3247503,
+                    "eTag": "0eaee25c51d148b5ada70c8944b7e199",
+                    "sequencer": "0063EDC5CF86D79B08"
+                }
+            }
+        }
+    ]
+}
